@@ -13,7 +13,6 @@ class SupabaseService {
     constructor() {
     }
     async getUserMainGoals() {
-
        return supabase.from('UserMainGoals').select();
     }
     async getUserProgress() {
